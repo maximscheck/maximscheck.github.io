@@ -1,0 +1,57 @@
+body {
+    font-family: 'Gelasio', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-bar {
+    background-color: #8f755f;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    font-weight: 400;
+    font-style: italic;
+    color: #393025;
+    margin: 0;
+    padding: 20px 0 10px;
+}
+
+p {
+    font-weight: 400;
+    margin: 0;
+    color: #393025;
+}
+
+.center-nav {
+    margin: 20px 0;
+}
+
+.center-nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #393025;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.center-nav a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    text-align: center; /* Center the image container */
+    margin-top: 20px; /* Add some spacing from the elements above */
+}
+
+.image-container img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Ensure the image centers properly */
+}
